@@ -1,5 +1,5 @@
-import Product from "../models/Product.js";
-import Settings from "../models/Settings.js";
+import Product from "../models/ProductModel.js";
+import Settings from "../models/SettingModel.js";
 
 
 export const getDashboardStats = async (req, res) => {

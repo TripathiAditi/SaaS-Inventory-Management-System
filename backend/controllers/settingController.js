@@ -1,4 +1,4 @@
-import Settings from "../models/Settings.js";
+import Settings from "../models/SettingModel.js";
 
 export const getSettings = async (req, res) => {
   try {

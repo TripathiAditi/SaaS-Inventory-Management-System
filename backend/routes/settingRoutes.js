@@ -2,7 +2,7 @@ import express from "express";
 import {
   getSettings,
   updateSettings,
-} from "../controllers/settings.controller.js";
+} from "../controllers/settingController.js";
 
 import authMiddleware from "../middleware/auth.middleware.js";
 
